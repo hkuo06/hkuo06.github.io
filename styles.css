@@ -1,7 +1,47 @@
-p { color: black; }
+body {
+    background-color:rgb(190, 230, 246);
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    font-family: cursive;
+    text-align: center;
+    padding: 10px;
+}
+
+p { 
+    color: black; 
+}
 
 img {
     width: 300px;
     height: auto;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.center {
+    text-align: center;
+    padding: 10px;
+}
+div {
+    text-align: center;
+}
+
+.container {
+    float: left;
+    padding:10px;
+    display: table;
+}
+
+.about {
+    width: 50%;
+    display: table;
+}
+
+
